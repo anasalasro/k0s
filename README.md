@@ -10,20 +10,10 @@ Aquí podréis ver informacion sobre k0s y su instalación
 3. [ Cloud Server ](https://github.com/anasalasro/k0s/blob/main/cloud.md)  
 4. [ Preparación de los servidores ](https://github.com/anasalasro/k0s/blob/main/prepararServidor.md)
 5. [ Instalación ](https://github.com/anasalasro/k0s/blob/main/instalacion1nodo.md)  
-6. [ Comprobación ](https://github.com/anasalasro/docker-portainer/blob/main/conclusion.md)
+6. [ Comprobación ](https://github.com/anasalasro/k0s/blob/main/comprobacion.md)
 ## Referencias
-[Ana Salas](fprodrigocaro.org)
+[CLOUDING.IO](https://clouding.io/)
+[k0s](https://docs.k0sproject.io/v1.22.4+k0s.1/install/)
+[tech-es](https://tech-es.netlify.app/articles/es534490/index.html)
 ## Licencia
 - [Licencia](https://github.com/anasalasro/docker-portainer/blob/main/imagenes/by-sa.png) 
-
-
-3.- Cloud Server elegido --> cloud.md
-
-Una breve descripción del cloud server elegido.
-
-4. Preparación de los servidores. --> preparacion.md
-
-5. Instalación del SO --> instalacion.md
-
-6.- Comprobaciones de funcionamiento.
-
