@@ -16,4 +16,4 @@ Se envía como un único binario sin dependencias del sistema operativo. Por lo 
 - Proporciona métricas de clúster a través de Metrics Server
 - Habilita la escala automática de pod horizontal (HPA).
 ```
-                                     ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/0.PNG)
+   ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/0.PNG)
