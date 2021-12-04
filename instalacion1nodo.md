@@ -4,10 +4,7 @@ Con este comando, descargamos un script y se ejecuta.
 ``` ruby 
 curl -sSLf https://get.k0s.sh | sh
 ```
-
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacion1.PNG)
-
-Con este comando, descargamos un script y se ejecuta.
 
 Podemos comprobar la versión instalada:
 
@@ -23,39 +20,38 @@ k0s install controller --single
 
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
 
-### 3.- Iniciamos el clúster
+### 3.- Iniciamos el clúster y comprobamos el status
 
 ``` ruby 
 k0s start
+k0s status
 ```
-![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
-### 4.Chequeamos el servicio
+![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/status.PNG)
 
-`k0s status`
-![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
+### 4.- k0s incluye kubectl
 
-### 5.- k0s incluye kubectl
-
-`k0s kubectl get nodes -o wide`
-![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
+``` ruby
+k0s kubectl get nodes -o wide
+```
+![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/informacion.PNG)
  
-### 6.-Comprobaciones
+### 5.-Comprobaciones
  
 1.- Creamos un pod:
 
-  `k0s kubectl run pod-nginx --image=nginx`
- ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
- 
- NAME            READY   STATUS    RESTARTS   AGE
-pod/pod-nginx-1   1/1     Running   0          19s
-
-NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
-service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   5m32s
-
+``` ruby
+k0s kubectl run pod-nginx-1 --image=nginx
+```
+ ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/creamospod.PNG)
  
 2.- Accedemos dentro del pod
-  `k0s kubectl exec pod/pod-nginx -it -- /bin/bash`
-  
-3.- Creamos una pasarela: port-forward
-   `k0s kubectl port-forward pod/pod-nginx 8081:80`
- ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
+  ``` ruby
+  k0s kubectl exec pod/pod-nginx -it -- /bin/bash
+  ```
+![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/accesopod.PNG)  
+3.- Creamos una pasarela: port-forward y comprobamos la web desde otra terminal con el curl
+   ``` ruby
+   k0s kubectl port-forward pod/pod-nginx 8081:80
+   curl localhost:8081
+   ```
+ ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/comprobamosweb.PNG)
