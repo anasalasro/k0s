@@ -2,7 +2,7 @@
 ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 ## Descripción
 ``` ruby
-Aquí podréis ver información sobre k0s y su instalación
+Aquí podréis ver información sobre k0s y su instalación en clouding.io
 ```
 ## Índice:
 1. [ Introducción ](https://github.com/anasalasro/k0s/blob/main/introduccion.md)  
