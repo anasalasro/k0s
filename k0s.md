@@ -1,4 +1,4 @@
-# ¿Qué es K![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/0.PNG)S? 
+# ¿Qué es K0S? 
 
 
 **k0s** 
@@ -16,3 +16,4 @@ Se envía como un único binario sin dependencias del sistema operativo. Por lo 
 - Proporciona métricas de clúster a través de Metrics Server
 - Habilita la escala automática de pod horizontal (HPA).
 ```
+                                     ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/0.PNG)
