@@ -5,7 +5,7 @@
 Aquí podréis ver informacion sobre k0s y su instalación
 ```
 ## Índice:
-1. [ Introducción ](https://github.com/anasalasro/docker-portainer/blob/main/introduccion.md)  
+1. [ Introducción ](https://github.com/anasalasro/k0s/blob/main/introduccion.md)  
 2. [ ¿Qué es k0s? ](https://github.com/anasalasro/docker-portainer/blob/main/webpersonalizada.md)
 3. [ Cloud Server ](https://github.com/anasalasro/docker-portainer/blob/main/paneldecontrol.md)  
 4. [ Instalación ](https://github.com/anasalasro/docker-portainer/blob/main/instalacion.md)  
