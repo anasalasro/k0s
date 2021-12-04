@@ -1,5 +1,5 @@
 # ¿Qué es K0S? 
-![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/kuber-spave_2_4x.png)
+![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 
 **k0s** 
 es la distribución de Kubernetes más nueva. La versión actual es 0.8.0. Se publicó en diciembre de 2020.
