@@ -1,7 +1,7 @@
 # Instalación de k0s en un nodo.
 ### 1.- Descarga de k0s
 Con este comando, descargamos un script y se ejecuta.
-```ruby curl -sSLf https://get.k0s.sh | sh```
+``` ruby curl -sSLf https://get.k0s.sh | sh```
 
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacion1.PNG)
 
