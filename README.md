@@ -1,8 +1,8 @@
 ``` ruby
 En este repositorio encontraréis diferentes scripts interesantes
-```
+
 # k0s
-![logoLinux](https://github.com/anasalasro/Linux-Script/blob/main/ImagenesLinux/logoLinux4.png)
+![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 ## Descripción
 Aquí podréis ver informacion sobre k0s y su instalación
 ## Índice:
@@ -30,3 +30,4 @@ Una breve descripción del cloud server elegido.
 5. Instalación del SO --> instalacion.md
 
 6.- Comprobaciones de funcionamiento.
+```
