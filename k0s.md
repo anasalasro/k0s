@@ -1,9 +1,9 @@
 # ¿Qué es K0S? ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 
-**k0s** ``` ruby 
+**k0s** 
 es la distribución de Kubernetes más nueva. La versión actual es 0.8.0. Se publicó en diciembre de 2020.
 Se envía como un único binario sin dependencias del sistema operativo. Por lo tanto, se define como una distribución de Kubernetes con características de facilidad de configuración, sin dependencias y gratis.
-Última versión de k0s:```
+Última versión de k0s:
 ``` ruby 
 - Ofrece certificado (certificado por Internet Security Center) Kubernetes 1.19
 - Utiliza containerd como tiempo de ejecución de contenedor predeterminado
