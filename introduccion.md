@@ -1,4 +1,3 @@
-# K0S
 ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 
 ## Introducción  
