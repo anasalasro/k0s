@@ -12,8 +12,8 @@ Aquí podréis ver informacion sobre k0s y su instalación
 5. [ Instalación ](https://github.com/anasalasro/k0s/blob/main/instalacion1nodo.md)  
 6. [ Comprobación ](https://github.com/anasalasro/k0s/blob/main/comprobacion.md)
 ## Referencias
-[CLOUDING.IO](https://clouding.io/)
-[k0s](https://docs.k0sproject.io/v1.22.4+k0s.1/install/)
-[tech-es](https://tech-es.netlify.app/articles/es534490/index.html)
+[CLOUDING.IO](https://clouding.io/)  
+[k0s](https://docs.k0sproject.io/v1.22.4+k0s.1/install/)  
+[tech-es](https://tech-es.netlify.app/articles/es534490/index.html)  
 ## Licencia
 - [Licencia](https://github.com/anasalasro/docker-portainer/blob/main/imagenes/by-sa.png) 
