@@ -1,10 +1,9 @@
-``` ruby
-En este repositorio encontraréis diferentes scripts interesantes
-
 # k0s
 ![logoLinux](https://github.com/anasalasro/k0s/blob/main/imagenes/k0s.png)
 ## Descripción
+``` ruby
 Aquí podréis ver informacion sobre k0s y su instalación
+```
 ## Índice:
 1. [ Introducción ](https://github.com/anasalasro/docker-portainer/blob/main/introduccion.md)  
 2. [ Instalación ](https://github.com/anasalasro/docker-portainer/blob/main/instalacion.md)  
@@ -30,4 +29,4 @@ Una breve descripción del cloud server elegido.
 5. Instalación del SO --> instalacion.md
 
 6.- Comprobaciones de funcionamiento.
-```
+
