@@ -11,17 +11,23 @@ Con este comando, descargamos un script y se ejecuta.
 
 Podemos comprobar la versión instalada:
 
-`k0s version`
+``` ruby 
+k0s version
+```
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/version.PNG)
 ### 2.- Lo instalamos en el cluster.
 
-`k0s install controller --single`
+``` ruby 
+k0s install controller --single
+```
 
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
 
 ### 3.- Iniciamos el clúster
 
-`k0s start`
+``` ruby 
+k0s start
+```
 ![k0s](https://github.com/anasalasro/k0s/blob/main/imagenes/instalacionCluster.PNG)
 ### 4.Chequeamos el servicio
 
